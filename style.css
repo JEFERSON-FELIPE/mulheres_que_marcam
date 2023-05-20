@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Mulish:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+
+body
+{
+    background-image: url("img/20bc2145-6169-4947-9f50-241f787a4ec3.jpg");
+    background-size: cover;
+    background-position:top center;
+    opacity: 0,5;
+}
+
+#texto_em_breve{
+    font-size: 50px;
+
+}
+#imagem_1{
+    background-image: url('img/WhatsApp Image 2023-05-17 at 13.35.58 (1).jpeg');
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.396);
+
+}
+#imagem_2{
+    background-image: url('img/Snapinsta.app_347651571_815662376674157_4500056330865232808_n_1080.jpg');
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.396);
+
+}
+#imagem_3{
+    background-image: url('img/Snapinsta.app_346393358_975309906833495_1154047554683507729_n_1080.jpg');
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.396);
+
+}
+#menu{
+    background-color: rgba(29, 29, 29, 0.33);
+ color: white;
+
+
+}
+#imagem2{
+    background-image: url('img/fotor_2023-5-18_1_26_19-removebg-preview.png');
+   /*width: 768px;
+   height:325px;*/
+   width: 55%;
+   height: 325px;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    background-size:cover;
+}
+#caixa-texto{
+background-color: rgba(35, 35, 140, 0.25);
+    opacity: 0,2;
+    color: white;
+    text-shadow: 2px 2px 2px 2px black;
+    box-shadow:6px 6px 6px 6px black ;
+    text-align: center;
+}
+#botao-participar{
+    border: solid 2px rgba(77, 77, 242, 0.861);
+    background-color: rgb(53, 53, 166);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+footer
+{
+    font-size: 20px;
+    padding: 15px;
+}
