@@ -4,109 +4,594 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Evento</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="ScrollReveal.css">
+    <title>7° Encontro de Mulheres que Marcam - MQM</title>
+    <link rel="stylesheet" href="\style.css">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script> </script>
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- SCRIPT -->
+    <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.3.2.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Mulish:wght@900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+
+body
+{
+    background: rgb(180,10,180);
+    background: linear-gradient(80deg, rgba(180,10,180,1) 7%, rgba(90,14,128,1) 47%, rgba(51,5,98,1) 100%);
+}
+#img-tema{
+    background-image: url('img/WhatsApp Image 2023-05-17 at 13.35.58 (1).jpeg');
+    width: 100%;
+    height:1080px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#texto_em_breve{
+    font-size: 50px;
+
+}
+#img-botao-inscreva{
+    border: solid 2px rgba(234, 172, 234, 0.869);
+    height: 700px;
+    background-color: rgb(53, 6, 53);
+
+}
+#img-bt{
+    background-image: url('img/menor2.jpg');
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+#fundo_cart{
+    background: linear-gradient(80deg, rgba(180,10,180,1) 7%, rgba(90,14,128,1) 47%, rgba(51,5,98,1) 100%);
+}
+
+#btn{
+    background-color: #ffffff;
+    color: rgba(90,14,128,1);
+    border-radius: 100px;
+    padding: 15px 30px;
+    font-size: 14px;
+    border: 0px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    transition: 500ms;
+}
+
+#btn:hover{
+    background-color: #da8623;
+    color: #ffffff;
+    border-radius: 100px;
+    padding: 15px 30px;
+    font-size: 14px;
+    border: 0px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    transition: 500ms;
+}
+
+#imagem_1{
+    background-image: url('img/WhatsApp Image 2023-05-17 at 13.35.58 (1).jpeg');
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.396);
+
+}
+#imagem_2{
+    background-image: url('img/Snapinsta.app_347651571_815662376674157_4500056330865232808_n_1080.jpg');
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.396);
+
+}
+#imagem_3{
+    background-image: url('img/Snapinsta.app_346393358_975309906833495_1154047554683507729_n_1080.jpg');
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.396);
+
+}
+
+#imagem_4{
+    background-image: url('img/WhatsApp Image 2023-05-22 at 13.33.29 (1).jpeg');
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.396);
+
+}
+
+#imagem_5{
+    background-image: url('img/WhatsApp Image 2023-05-22 at 13.33.29 (2).jpeg');
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.396);
+
+}
+
+#imagem_6{
+    background-image: url('img/WhatsApp Image 2023-05-22 at 13.33.29 (3).jpeg');
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.396);
+
+}
+
+#imagem_7{
+    background-image: url('img/WhatsApp Image 2023-05-22 at 13.33.29.jpeg');
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.396);
+
+}
+
+#imagem_8{
+    background-image: url('img/WhatsApp Image 2023-05-22 at 13.33.30 (1).jpeg');
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.396);
+
+}
+
+#imagem_9{
+    background-image: url('img/WhatsApp Image 2023-05-22 at 13.33.30.jpeg');
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.396);
+
+}
+
+#menu{
+    background: rgba(90,14,128,0.80);
+}
+section {
+    text-align: center;
+  }
+
+  img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+#caixa-texto{
+background-color: rgba(35, 35, 140, 0.25);
+    opacity: 0,2;
+    color: white;
+    text-shadow: 2px 2px 2px 2px black;
+    box-shadow:6px 6px 6px 6px black ;
+    text-align: center;
+
+}
+#botao-participar{
+
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#inscrever{
+
+    background-color: rgba(35, 35, 140, 0.25);
+    opacity: 0,2;
+    color: white;
+    text-shadow: 2px 2px 2px 2px black;
+    box-shadow:6px 6px 6px 6px black ;
+    text-align: center;
+
+
+}
+
+#bt-inscrever{
+    margin-top: 10%;
+    margin-left: 20%;
+    width: 500px;
+    height: 200px;
+    border-radius: 20px;
+    background: rgba(38, 5, 38, 0.661);
+    background: radial-gradient(circle, rgba(38,5,38,1) 7%, rgba(48,10,67,0.9640231092436975) 47%, rgba(52,15,89,1) 100%);
+    background-color: rgba(35, 35, 140, 0.25);
+    opacity: 0,3;
+    color: white;
+    text-shadow: 2px 2px 2px 2px black;
+    box-shadow:6px 6px 6px 6px black ;
+    text-align: center;
+
+}
+#bt-int{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+
+}
+@media (max-width: 700px) {
+    #img-tema-{
+        width: 250px;
+        margin-left: 5%;
+
+       
+
+    }
+    #img-tema{
+        height: 690px;
+
+    }
+    #mqm{
+        display: none;
+    }
+  
+ 
+  
+  }
+
+
+
+
+    </style>
+    
 </head>
 <body>
-    <article  class="inline text-right  ">
-        <div id="menu" class=" ">
-            <ul class="inline-block text-left m-[50px" >
-                <a href="https://www.instagram.com/redemulheresquemarcam/" target="_blank">
-                    <li class="inline-block p-[10px] w-[50px] h-[50px] "   >  <img src="img/logotipo-do-instagram.png" alt=""></li>
-                </a>
-                <a href="https://www.facebook.com/Mulheres-que-Marcam-326273001635487/?paipv=0&eav=AfbHSiGB7lUrDhryWf9f9hJX0LV1jnRgNH74vXwRM71yGfdV_8ZZAfUs7q7owAffRGE&_rdr" target="_blanck">
-                    <li class="inline-block p-[10px] w-[50px] h-[50px] " >  <img src="img/facebook.png" alt=""></li>
-                </a>
-                <a href="https://chat.whatsapp.com/BxwcQ1emcq14J0GwZ927IO" target="_blanck">
-                    <li class="inline-block p-[10px] w-[50px] h-[50px] "> <img src="img/whatsapp (7).png" alt=""></li>
-                </a>
-            </ul>
+    <article class="inline text-right">
+    <div id="menu" class="w-[100%] px-[5%] py-[20px] fixed" style="display: none; z-index: 1;">
+        <div class="w-[100%] inline-block">
+            <div class="w-[23.3%] float-left inline-block">
+                <img id="mqm" class="float-left mt-[30px] w-[150px]" src="img/mqm.png" alt="">
+            </div>
+            <div class="w-[53.3%] float-left inline-block">
+                <center><img id="img-tema-" src="img/maior.png" alt=""></center>
+            </div>
+            <div class="w-[23.3%] float-left inline-block">
+                <a href="https://sun.eduzz.com/1827710"><button id="btn" type="button" class="btn btn-primary btn-lg shadow-lg" style="float: right; font-weight: bold;">Inscreva-se agora!</button></a>
+            </div>
         </div>
+    </div>
     </article>
-
-            <!---->
-
-          <div id="imagem2" class="w-[100%] h-[350pxphp]" >
-
-          </div>
-
-            <!---->
-            <section id="area1" >
-                <div id="caixa-texto"  class=" border border-white-500 border-2 rounded-[20px]  w-[70%] h-[250px] ml-[15%] mt-[10%] " >
-                <p id="texto_em_breve" class="text-xl text-white mt-[10%] ">
-                   EM BREVE NOVIDADES
+    <article id="img-tema" class="w-full h-[450px]"></article>
 
 
-                </p>
-
+    <!--video + texto-->
+    <section class="w-[100%] inline-block bg-[#fafafa] py-[60px]">
+    <div class="w-[90%] mx-[5%]">
+        <div class="flex flex-col md:flex-row">
+        <div class="w-full md:w-1/2">
+            <div class="relative" style="padding-bottom: 85%;">
+            <video class="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg" style="width: 100%; height: 100%;" src="img/WhatsApp Video 2023-05-22 at 13.33.27.mp4" controls></video>
             </div>
         </div>
+        <div class="w-full md:w-1/2 px-[50px] text-left font-bold">
+            <p class="text-gray-800 font-bold text-[25px] ">O Resgate do Verdadeiro Poder Feminino ✨</p>
+            <p class="text-gray-800 mt-4 text-l mt-4 sm:mt-8 md:mt-12">No próximo dia 16 de Julho, mais de mil mulheres estarão juntas no Teatro Riachuelo para o 7º Encontro Mulheres que Marcam, o maior e mais impactante evento de empreendedorismo feminino do Nordeste.</p>
+            <p class="text-gray-800 text-l">Teremos 8h de treinamento, das 10 às 19h, e uma trilha fantástica que irá mesclar conteúdo teórico-prático, com momentos de inspiração e muita conexão feminina.</p>
+            <p class="text-gray-800 text-l mt-4">O propósito desse grande momento será desenvolver de forma sistêmica a Identidade Feminina, fortalecendo a compreensão que cada mulher tem sobre si.</p>
+            <p class="text-gray-800 text-l ">Através de uma trilha integrada e uma abordagem interdisciplinar, as treinadoras oficiais do 7º Encontro Mulheres que Marcam irão desenvolver temáticas, aplicar ferramentas especiais e promover dinâmicas interativas.</p>
+            <p class="text-gray-800 text-l ">O objetivo é aprofundar a percepção que a mulher tem sobre si e a forma como se posiciona em seu mercado.</p>
+            <p class="text-gray-800 text-l ">O Resgate do Verdadeiro Poder Feminino ✨</p>
+        </div>
+        </div>
+    </div>
+    </section>
 
-            </section>
-            <!---->
-        <section  id="area2" class="w-[100%] block ">
-        <div id="inicio" class="w-[100%]   mt-[10%]  text-center  text-2xl "></div>
-        <article class="w-[85%] mx-[6%]  inline-block flex justify-center">
-            <div id="imagem_1"  class="w-[520px] h-[350px]  inline-block border border-solid border-black rounded-lg mx-7 transform hover:scale-110 transition-transform duration-300"> <p></p></div>
-            <div id="imagem_2" class="w-[520px] h-[350px] inline-block border border-solid border-black rounded-lg mx-7 transform hover:scale-110 transition-transform duration-300"><p></p></div>
-            <div id="imagem_3"  class="w-[520px] h-[350px]  inline-block border border-solid border-black rounded-lg mx-7 transform hover:scale-110 transition-transform duration-300"><p></p></div>
-        </article>
+    <!--carrossel-->
 
-        <section class="w-[75%] mx-[13%] mt-[15%] inline-block flex justify-center " >
+    <section class="w-[80%] mx-[10%] inline-block">
 
-
-            <div class="w-[45%] h-[30%] inline-block  float-left m-[20px]"  >
-                <div id="caixa-texto"  class=" border border-white-500 border-2 rounded-[20px]  w-[450px] h-[250px] " >
-                        <div class="ml-[40%] p-[15px]" > <img src="img/whatsapp (7).png" alt=""></div>
-                    <p class="text-xl text-white">
-                        Participar do Grupo Aberto no WhatsApp
-                        <br>
-                        <a href="https://chat.whatsapp.com/BxwcQ1emcq14J0GwZ927IO" target="_blanck"><button id="botao-participar"> QUERO PARTICIPAR</button></a>
-
-                    </p>
-
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" style="height: 600px;">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="w-[100%] mt-[100px] inline-block">
+                        <div style="background: url('img/WhatsApp Image 2023-05-22 at 13.33.29 (3).jpeg'); background-size: cover;" class="w-[48%] h-[400px] shadow-lg rounded-[10px] mx-[1%] float-left inline-block bg-[blue]"></div>
+                        <div style="background: url('img/WhatsApp Image 2023-05-22 at 13.33.30 (1).jpeg'); background-size: cover;" class="w-[48%] h-[400px] shadow-lg rounded-[10px] mx-[1%] float-left inline-block bg-[blue]"></div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="w-[100%] mt-[100px] inline-block">
+                        <div style="background: url('img/WhatsApp Image 2023-05-22 at 13.33.30.jpeg'); background-size: cover;" class="w-[48%] h-[400px] shadow-lg rounded-[10px] mx-[1%] float-left inline-block bg-[blue]"></div>
+                        <div style="background: url('img/WhatsApp Image 2023-05-22 at 13.33.29 (1).jpeg'); background-size: cover;" class="w-[48%] h-[400px] shadow-lg rounded-[10px] mx-[1%] float-left inline-block bg-[blue]"></div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="w-[100%] mt-[100px] inline-block">
+                        <div style="background: url('img/WhatsApp Image 2023-05-22 at 13.33.29 (2).jpeg'); background-size: cover;" class="w-[48%] h-[400px] shadow-lg rounded-[10px] mx-[1%] float-left inline-block bg-[blue]"></div>
+                        <div style="background: url('img/WhatsApp Image 2023-05-22 at 13.33.29.jpeg'); background-size: cover;" class="w-[48%] h-[400px] shadow-lg rounded-[10px] mx-[1%] float-left inline-block bg-[blue]"></div>
+                    </div>
                 </div>
             </div>
-
-
-            <div class="w-[45%] h-[30%] inline-block  m-[20px]" >
-                <div id="caixa-texto" class=" border border-white-500 border-2 rounded-[20px]  p-[20px] w-[450px] h-[250px]" >
-                    <p class="text-xl">Cadastre seu EMAIL para receber os
-                     UPDATES em primeira-mão!</p>
-                    <form action="" method="POST">
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome" name="nome" required><br><br>
-
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email" required><br><br>
-
-                    <input type="checkbox" id="aceitar" name="aceitar" required>
-                    <label for="aceitar">Eu li e concordo com os termos de privacidade</label><br><br>
-
-                    <input type="submit" value="Enviar">
-                  </form>
-                </div>
-
-
-                </div>
-            </div>
-
-        </section>
-
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev" style="margin-left: -100px;">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next" style="margin-right: -100px;">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
     </section>
 
-    <footer class="mt-[25%] text-center text-white ">
-        <div>
-            <p >Todos os direitos reservados </p>
+               <!---->
+
+                <!--programação-->
+<section class="flex text-left w-full ">
+    <div class="w-[80%] bg-gray-100 rounded-[25px] p-8 ml-[9%] ">
+      <div class="flex items-center">
+      </div>
+      <div class="">
+        <div id="programacao">
+          <p class="text-center text-4xl p-[20px]"><b>Confira a Programação na Íntegra!</b></p>
         </div>
+        <ul>
+          <li class="text-black-600 mt-4 text-xl">⭐️ <b>Kênia Raissa</b> <br>
+            Estrategista em Marcas Pessoais Femininas, Treinadora de Treinadores Globais e Empresária. <br>
+            PONTO DE CONVERGÊNCIA: O PODEROSO ENCONTRO DA SUA HISTÓRIA DE VIDA COM SEU PROPÓSITO.
+          </li>
+          <br>
+          <li class="text-black-600 mt-4 text-xl">⭐️ <b>Danielle Mafra</b> <br>
+            Executiva em ESG e atual Secretária Executiva do Município de Natal. <br>
+            FUTURO, TENDÊNCIAS E O NOSSO PAPEL NA NOVA ECONOMIA.
+          </li>
+          <br>
+          <li class="text-black-600 mt-4 text-xl">⭐️ <b>Katarina Alcântara</b> <br>
+            Personal Business, Mentora de Carreiras e Treinadora Comportamental. <br>
+            COMPETÊNCIAS INTERPESSOAIS QUE COLOCAM A MULHER CONTEMPORÂNEA EM POSIÇÃO DE DESTAQUE.
+          </li>
+          <br>
+          <li class="text-black-600 mt-4 text-xl">⭐️ <b>Laíse Trindade</b><br>
+            Nutricionista, Especialista em Neurociência aplicada ao Desenvolvimento Humano. <br>
+            PRODUTIVIDADE ESTRATÉGICA E ALTA PERFORMANCE NA VIDA E NOS NEGÓCIOS
+          </li>
+          <br>
+          <li class="text-black-600 mt-4 text-xl">⭐️ <b>Priscila Barros</b> <br>
+            Estrategista Digital e Mentora em Posicionamento Estratégico Digital.
+          </li>
+          <br>
+          <li class="text-black-600 mt-4 text-xl">⭐️ <b>Thaís Barbosa</b> <br>
+            Mentora e Treinadora de Experts, Especialista em Método, Narrativas e Criação de Produtos e Serviços Educacionais. <br>
+            COMO SUPERAR O MEDO DA EXPOSIÇÃO DIGITAL E TER A CORAGEM DE CRIAR UM POSICIONAMENTO AUTÊNTICO
+          </li>
+          <br>
+          <li class="text-black-600 mt-4 text-xl">⭐️ <b>Aline Chacon</b> <br>
+            Educadora e Mentora de Mulheres que buscam viver sua autenticidade. <br>
+            MULHER REAL E CONTEMPORÂNEA: LIBERTE-SE DE QUEM VOCÊ NÃO É PARA VIVER SUA VERDADEIRA IDENTIDADE.
+          </li>
+          <br>
+          <li class="text-black-600 mt-4 text-xl">⭐️ <b>Ísis Moreira</b> <br>
+            Treinadora de Negócios e Espiritualidade, com mais de 20 mil alunos treinados em Marketing Digital e Desenvolvimento Pessoal. <br>
+            DESENVOLVA INTENCIONALMENTE UMA EXISTÊNCIA DE ABUNDÂNCIA.
+          </li>
+          <br>
+          <p class="text-black-600 mt-4 text-xl">Venha fazer parte desse momento que irá marcar a história de muitas mulheres.</p>
+          <p class="text-black-600 mt-4 text-xl"><b>Vamos todas juntas!</b></p>
+        </ul>
+      </div>
+    </div>
+  </section>
+                    <!--baners-->
+
+                    <section class="flex text-left w-full mt-[10%] ">
+                        <div class="w-[80%] h-[350px] bg-gray-100 rounded-[25px] p-8 ml-[9%] ">
+                          <div class="flex items-center">
+                          </div>
+                          <div class="">
+                            <div id="programacao">
+                              
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </section>
+
+                      <!---->
+
+                      <section class="flex text-left w-full mt-[10%] ">
+                        <div class="w-[80%] h-[350px] bg-gray-100 rounded-[25px] p-8 ml-[9%] ">
+                          <div class="flex items-center">
+                          </div>
+                          <div class="">
+                            <div id="programacao">
+                              
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </section>
+      <!--botoes de inscrição-->
+
+    <!--<section class="w-[82%] mx-[9%] inline-block">
+        <article>
+            <div class="w-[100%] mt-[50px] inline-block">
+                <div class="w-[48%] mr-[1%] inline-block">
+                    <div id="fundo_card" class="w-[100%] p-[40px] inline-block rounded-[20px]">
+                        <div class="w-[100%] inline-block">
+                            <div class="w-[35%] float-left inline-block">
+                                <div style="background-image: url('img/300x300.jpg'); background-size: 100%;" class="w-[145px] h-[145px]  rounded-[100px]"></div>
+                            </div>
+                            <div class="w-[65%] float-left inline-block">
+                                <p class="text-left font-bold text-[35px] text-[#ffffff] uppercase">Inscreva-se agora!</p>
+                                <p class="text-left text-[#ffffff] font-bold">Aproveite as condições exclusivas hoje.</p>
+                                <a href="https://sun.eduzz.com/1827710"><button type="button" class="w-[100%] mt-[15px] text-[15px] uppercase h-[60px] rounded-[100px] bg-[#4a0a74] text-[#ffffff] shadow-lg">Inscreva-se agora</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[48%] ml-[1%] inline-block">
+                    <div id="fundo_card" class="w-[100%] p-[40px] inline-block rounded-[20px]">
+                        <div class="w-[100%] inline-block">
+                            <div class="w-[35%] float-left inline-block">
+                                <div style="background-image: url('img/whatsapp (9).png'); background-size: 100%;" class="w-[145px] h-[145px] rounded-[100px]"></div>
+                            </div>
+                            <div class="w-[65%] float-left inline-block">
+                                <p class="text-left font-bold text-[30px] text-[#ffffff] uppercase">Participe!</p>
+                                <p class="text-left text-[#ffffff] font-bold">Mais informações sobre nosso evento.</p>
+                                <button type="button" class="w-[100%] mt-[15px] text-[15px] uppercase h-[60px] rounded-[100px] bg-[#52891d] text-[#ffffff] shadow-lg">fale conosco</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>-->
+
+    <section>
+        <div class="">
+            <!-- BANNERS AQUI -->
+        </div>
+    </section>
+
+    <section class="w-full md:w-[82%] mx-auto md:mx-[9%] inline-block ">
+        <article>
+            <div class="w-full md:w-[100%] mt-8 md:mt-[50px] inline-block ml-[10%]">
+                <div class="w-full md:w-[48%] md:mr-0 md:ml-[1%] inline-block">
+                    <div id="fundo_card" class="w-full md:w-[100%] p-4 md:p-[40px] inline-block rounded-[20px]">
+                        <div class="w-full inline-block">
+                            <div class="w-35% md:w-[35%] float-left inline-block">
+                                <div style="background-image: url('img/300x300.jpg'); background-size: 100%;" class="w-32 md:w-[145px] h-32 md:h-[145px] rounded-full"></div>
+                            </div>
+                            <div class="w-65% md:w-[65%] float-left inline-block">
+                                <p class="text-left font-bold text-2xl md:text-[35px] text-white uppercase">Inscreva-se!</p>
+                                <p class="text-left text-white font-bold">Aproveite as condições exclusivas hoje.</p>
+                                <a href="https://sun.eduzz.com/1827710">
+                                    <button type="button" class="w-full mt-4 md:mt-[15px] text-base md:text-[15px] uppercase h-16 md:h-[60px] rounded-full bg-[#4a0a74] text-white shadow-lg">Inscreva-se agora</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-[48%] md:ml-0 md:mr-[1%] inline-block mt-8 md:mt-0">
+                    <div id="fundo_card" class="w-full md:w-[100%] p-4 md:p-[40px] inline-block rounded-[20px]">
+                        <div class="w-full inline-block">
+                            <div class="w-35% md:w-[35%] float-left inline-block">
+                                <div style="background-image: url('img/whatsapp (9).png'); background-size: 100%;" class="w-32 md:w-[145px] h-32 md:h-[145px] rounded-full"></div>
+                            </div>
+                            <div class="w-65% md:w-[65%] float-left inline-block">
+                                <p class="text-left font-bold text-xl md:text-[30px] text-white uppercase">Participe!</p>
+                                <p class="text-left text-white font-bold">Mais informações sobre nosso evento.</p>
+                                <button type="button" class="w-full mt-4 md:mt-[15px] text-base md:text-[15px] uppercase h-16 md:h-[60px] rounded-full bg-[#52891d] text-white shadow-lg">Fale conosco</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    
+    
+    
+    
+
+    <style>
+        .swiper-container {
+        overflow: hidden; /* Esconde o conteúdo que transborda */
+        }
+
+        .swiper-wrapper {
+        display: flex; /* Altera o comportamento dos slides para serem exibidos em uma linha */
+        flex-wrap: nowrap; /* Impede que os slides quebrem para a próxima linha */
+        }
+
+        .swiper-slide {
+        flex: 0 0 auto; /* Impede que os slides aumentem além do tamanho do conteúdo */
+        }
+
+        .swiper-container {
+        overflow: hidden; /* Esconde o conteúdo que transborda */
+        }
+
+        .swiper-wrapper {
+        display: flex; /* Altera o comportamento dos slides para serem exibidos em uma linha */
+        flex-wrap: nowrap; /* Impede que os slides quebrem para a próxima linha */
+        }
+
+        .swiper-slide {
+        flex: 0 0 auto; /* Impede que os slides aumentem além do tamanho do conteúdo */
+        }
+        .swiper-container {
+        overflow: hidden; /* Esconde o conteúdo que transborda */
+        }
+
+        .swiper-wrapper {
+        display: flex; /* Altera o comportamento dos slides para serem exibidos em uma linha */
+        flex-wrap: nowrap; /* Impede que os slides quebrem para a próxima linha */
+        }
+
+        .swiper-slide {
+        flex: 0 0 auto; /* Impede que os slides aumentem além do tamanho do conteúdo */
+        }
+    </style>
+
+    <!-- Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script>
+        // Aguarde o carregamento completo do DOM antes de iniciar o Swiper
+        document.addEventListener("DOMContentLoaded", function () {
+        // Inicialize o Swiper
+        var swiper = new Swiper(".swiper-container", {
+            slidesPerView: "auto", // Define o número de slides visíveis
+            spaceBetween: 10, // Define o espaçamento entre os slides
+            loop: true, // Habilita o loop do carrossel
+            navigation: {
+            nextEl: ".swiper-button-next", // Elemento HTML para o botão "próximo"
+            prevEl: ".swiper-button-prev" // Elemento HTML para o botão "anterior"
+            },
+            autoplay: {
+            delay: 2000, // Tempo de espera entre cada slide (em milissegundos)
+            disableOnInteraction: false // Continua o autoplay mesmo quando o usuário interage com o carrossel
+            },
+            speed: 500 // Ajusta a velocidade do carrossel (em milissegundos)
+        });
+
+        // Ajusta a largura dos slides para corresponder ao layout inicial
+        swiper.on("resize", function () {
+            swiper.slides.css("width", ""); // Redefine a largura dos slides para o valor padrão
+            swiper.update(); // Atualiza o Swiper para aplicar as alterações
+        });
+        });
+    </script>
+
+    <script>
+        // Script jQuery para esconder um elemento na página quando a rolagem ultrapassar 200px
+        $(window).scroll(function(){
+
+                if($(document).scrollTop() > 600){// se a rolagem passar de 200px esconde o elemento
+
+                    $('#menu').fadeIn();
+
+                } else { // senão ele volta a ser visivel
+
+                    $('#menu').fadeOut();
+
+                }
+
+            });
+    </script>
+
+    <footer class="mt-[50px] bg-[#4a0a74] py-[20px] text-center text-white">
+        <p class="text-[13px] text-[#ffffff]">Todos os direitos reservados a Mulheres que Marcam &copy; 2023 </p>
+        <ul class="float-right mt-[-1%] mr-[10px]">
+            <!-- <li class="inline-block mr-[10px]"><i class="fi fi-brands-facebook" style="color: #ffffff; font-size: 20px;"></i></li> -->
+            <!-- <li class="inline-block mr-[10px]"><i class="fi fi-brands-twitter" style="color: #ffffff; font-size: 20px;"></i></li> -->
+            <li class="inline-block mr-[10px]"><i class="fi fi-brands-instagram" style="color: #ffffff; font-size: 20px;"></i></li>
+            <!-- <li class="inline-block mr-[10px]"><i class="fi fi-brands-whatsapp" style="color: #ffffff; font-size: 20px;"></i></i></li> -->
+        </ul>
+        
     </footer>
-
-    <script src="ScrollReveal.js"></script>
-
 </body>
 </html>

@@ -75,3 +75,34 @@ footer
     font-size: 20px;
     padding: 15px;
 }
+
+@media (max-width: 800px) {
+    body{
+        width: 100%;
+    
+    }
+    #texto_em_breve{
+        font-size: 25px;
+        margin-top: 30%;
+    }
+    #imagem2{
+        width: 100px;
+        height: 350px;
+        width: 100%;
+       
+    }
+    #caixa-texto{
+        margin-top: 30%;
+    }
+
+    
+    
+        
+    }
+
+
+
+    
+   
+  
+ 
