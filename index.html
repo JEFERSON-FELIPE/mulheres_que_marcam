@@ -44,7 +44,8 @@
     #img-tema{
         background-image: url('img/WhatsApp Image 2023-05-17 at 13.35.58 (1).jpeg');
         width: 100%;
-        height:1280px;
+        height: 550px;
+        height: 1280px;
         background-repeat: no-repeat;
         background-size: 100%;
     }
@@ -212,15 +213,101 @@
         scale: 1.1;
         transition: 500ms;
     }
-    @media (max-width: 700px) {
-        #img-tema-{
-            width: 250px;
-            margin-left: 5%;
-        }
+    #back-text{
+        background: linear-gradient(204deg, rgba(255,255,255,1) 63%, rgba(180,18,199,0.9540148823201156) 63%); 
+    }
+    #carousel{
+        margin-left: -30px;
+    }
+    #carousel-control-prev{
+        margin-left: -120px; margin-top: 70px;
+    }
+    #carousel-control-next{
+        margin-right: -120px; margin-top: 70px;
+    }
+    @media all and (min-width:2px) and (max-width:742px) {
         #img-tema{
-            height: 690px;
+            background-image: url('img/WhatsApp Image 2023-05-17 at 13.35.58 (1).jpeg');
+            width: 100%;
+            height: 39vh;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        #video_kenia{
+            width: 100%;
+            margin-top: -90px;
+            margin-bottom: 50px;
+        }
+        #top-titulo{
+            line-height: 32px;
+        }
+        #back-text{
+            background: #ffffff;
+        }
+        #lado1{
+            width: 100%;
+        }
+        #lado2{
+            width: 100%;
+        }
+        #fotos{
+            width: 100%;
+            height: 300px;
+            margin-bottom: 20px;
+        }
+        #carousel-control-prev{
+            display: none;
+        }
+        #carousel-control-next{
+            display: none;
+        }
+        .carousel-inner{
+            margin-left: 4%;
+        }
+        #caixa-text{
+            width: 100%;
+            margin-left: 0px;
+            padding: 30px;
+        }
+        #sec{
+            width: 90%;
+            margin: 0px 5%;
+        }
+        #logox{
+            width: 38%;
+            float: left;
+            margin-right: 2%;
+        }
+        #logo-maior{
+            display: none;
+        }
+        #button-cp{
+            width: 58%;
+            float: left;
+            margin-left: 2%;
+        }
+        #btn{
+            margin-top: 15px;
+            line-height: 14px;
         }
         #mqm{
+            margin-top: 20px;
+        }
+        #footer-1{
+            width: 100%;
+        }
+        #footer-2{
+            width: 100%;
+            margin-left: 0px;
+        }
+        #text-promo{
+            font-size: 25px;
+            line-height: 26px;
+        }
+        #button_promo{
+            font-size: 12px;
+        }
+        #redes{
             display: none;
         }
     }
@@ -230,30 +317,30 @@
         <header>
             <div id="menu" class="w-[100%] px-[5%] py-[20px] fixed shadow-lg" style="display: none; z-index: 1;">
                 <div class="w-[100%] inline-block">
-                    <div class="w-[23.3%] float-left inline-block">
+                    <div id="logox" class="w-[23.3%] float-left inline-block">
                         <img id="mqm" class="float-left mt-[30px] w-[150px]" src="img/mqm.png" alt="">
                     </div>
-                    <div class="w-[53.3%] float-left inline-block">
+                    <div id="logo-maior" class="w-[53.3%] float-left inline-block">
                         <center><img id="img-tema-" src="img/maior.png" alt=""></center>
                     </div>
-                    <div class="w-[23.3%] float-left inline-block">
+                    <div id="button-cp" class="w-[23.3%] float-left inline-block">
                         <a href="#comprar"><button id="btn" type="button" class="btn btn-primary btn-lg shadow-lg" style="float: right; font-weight: bold;">Inscreva-se agora!</button></a>
                     </div>
                 </div>
             </div>
         </header>
-        <article id="img-tema" class="w-full h-[550px]"></article>
+        <article id="img-tema"></article>
         <!--video + texto-->
-        <section style="background: linear-gradient(204deg, rgba(255,255,255,1) 63%, rgba(180,18,199,0.9540148823201156) 63%); " class="w-[100%] inline-block py-[60px]">
+        <section id="back-text" class="w-[100%] inline-block py-[60px]">
             <div class="w-[90%] mx-[5%]">
                 <div class="">
-                    <div class="w-[50%] float-left inline-block">
+                    <div id="lado1" class="w-[50%] float-left inline-block">
                         <div class="relative">
                             <video id="video_kenia" class="w-[400px] mt-[-120px] mx-auto rounded-[20px] shadow-lg" src="img/WhatsApp Video 2023-05-22 at 13.33.27.mp4" controls></video>
                         </div>
                     </div>
-                    <div class="w-[50%] float-left inline-block text-left">
-                        <p class="text-gray-800 font-bold text-[30px] mt-[-10px]">O Resgate do Verdadeiro Poder Feminino ✨</p>
+                    <div id="lado2" class="w-[50%] float-left inline-block text-left">
+                        <p id="top-titulo" class="text-gray-800 font-bold text-[30px] mt-[-10px]">O Resgate do Verdadeiro Poder Feminino ✨</p>
                         <p class="text-gray-800 mt-4 text-l mt-4 sm:mt-8 md:mt-12">No próximo dia 16 de Julho, mais de mil mulheres estarão juntas no Teatro Riachuelo para o 7º Encontro Mulheres que Marcam, o maior e mais impactante evento de empreendedorismo feminino do Nordeste.</p>
                         <p class="text-gray-800 text-l">Teremos 8h de treinamento, das 10 às 19h, e uma trilha fantástica que irá mesclar conteúdo teórico-prático, com momentos de inspiração e muita conexão feminina.</p>
                         <p class="text-gray-800 text-l mt-4">O propósito desse grande momento será desenvolver de forma sistêmica a Identidade Feminina, fortalecendo a compreensão que cada mulher tem sobre si.</p>
@@ -276,30 +363,30 @@
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="10000">
+                    <div id="active" class="carousel-item active" data-bs-interval="10000">
                         <div class="w-[100%] mt-[100px] inline-block">
-                            <div style="background: url('img/WhatsApp Image 2023-05-22 at 13.33.29 (3).jpeg'); background-size: cover;" class="w-[48%] h-[400px] shadow-lg rounded-[10px] mx-[1%] float-left inline-block bg-[blue]"></div>
-                            <div style="background: url('img/WhatsApp Image 2023-05-22 at 13.33.30 (1).jpeg'); background-size: cover;" class="w-[48%] h-[400px] shadow-lg rounded-[10px] mx-[1%] float-left inline-block bg-[blue]"></div>
+                            <div id="fotos" style="background: url('img/WhatsApp Image 2023-05-22 at 13.33.29 (3).jpeg'); background-size: cover;" class="w-[48%] h-[400px] shadow-lg rounded-[10px] mx-[1%] float-left inline-block bg-[blue]"></div>
+                            <div id="fotos" style="background: url('img/WhatsApp Image 2023-05-22 at 13.33.30 (1).jpeg'); background-size: cover;" class="w-[48%] h-[400px] shadow-lg rounded-[10px] mx-[1%] float-left inline-block bg-[blue]"></div>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
                         <div class="w-[100%] mt-[100px] inline-block">
-                            <div style="background: url('img/WhatsApp Image 2023-05-22 at 13.33.30.jpeg'); background-size: cover;" class="w-[48%] h-[400px] shadow-lg rounded-[10px] mx-[1%] float-left inline-block bg-[blue]"></div>
-                            <div style="background: url('img/WhatsApp Image 2023-05-22 at 13.33.29 (1).jpeg'); background-size: cover;" class="w-[48%] h-[400px] shadow-lg rounded-[10px] mx-[1%] float-left inline-block bg-[blue]"></div>
+                            <div id="fotos" style="background: url('img/WhatsApp Image 2023-05-22 at 13.33.30.jpeg'); background-size: cover;" class="w-[48%] h-[400px] shadow-lg rounded-[10px] mx-[1%] float-left inline-block bg-[blue]"></div>
+                            <div id="fotos" style="background: url('img/WhatsApp Image 2023-05-22 at 13.33.29 (1).jpeg'); background-size: cover;" class="w-[48%] h-[400px] shadow-lg rounded-[10px] mx-[1%] float-left inline-block bg-[blue]"></div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="w-[100%] mt-[100px] inline-block">
-                            <div style="background: url('img/WhatsApp Image 2023-05-22 at 13.33.29 (2).jpeg'); background-size: cover;" class="w-[48%] h-[400px] shadow-lg rounded-[10px] mx-[1%] float-left inline-block bg-[blue]"></div>
-                            <div style="background: url('img/WhatsApp Image 2023-05-22 at 13.33.29.jpeg'); background-size: cover;" class="w-[48%] h-[400px] shadow-lg rounded-[10px] mx-[1%] float-left inline-block bg-[blue]"></div>
+                            <div id="fotos" style="background: url('img/WhatsApp Image 2023-05-22 at 13.33.29 (2).jpeg'); background-size: cover;" class="w-[48%] h-[400px] shadow-lg rounded-[10px] mx-[1%] float-left inline-block bg-[blue]"></div>
+                            <div id="fotos" style="background: url('img/WhatsApp Image 2023-05-22 at 13.33.29.jpeg'); background-size: cover;" class="w-[48%] h-[400px] shadow-lg rounded-[10px] mx-[1%] float-left inline-block bg-[blue]"></div>
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev" style="margin-left: -120px; margin-top: 70px;">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev" id="carousel-control-prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next" style="margin-right: -120px; margin-top: 70px;">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next" id="carousel-control-next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
@@ -310,8 +397,8 @@
                 <!---->
 
                     <!--programação-->
-    <section class="flex text-left w-full ">
-        <div class="w-[80%] bg-gray-100 rounded-[25px] p-[80px] ml-[9%] ">
+    <section id="sec" class="flex text-left w-[80%] mx-[10%]">
+        <div id="caixa-text" class="inline-block bg-[#ffffff] rounded-[20px] p-[80px] ml-[-22px]">
         <div class="flex items-center">
         </div>
         <div class="">
@@ -368,7 +455,7 @@
     <section id="comprar" class="flex text-left w-full mt-[60px]">
         <div class="w-[80%] rounded-[25px] ml-[9%] ">
             <div class="w-[100%] inline-block">
-                <div class="w-[28%] mr-[2%] mt-[50px] inline-block float-left">
+                <div id="footer-1" class="w-[28%] mr-[2%] mt-[50px] inline-block float-left">
                     <script src="https://code.jquery.com/jquery-3.6.0.min.js" charset="utf-8"></script>
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js" charset="utf-8"></script>
 
@@ -390,8 +477,8 @@
                     </script>
                 </div>
 
-                <div class="w-[65%] ml-[5%] inline-block float-left">
-                    <center><p class="text-[30px] font-bold mt-[45px] text-[#ffffff] uppercase">Aproveite o lote promocional hoje!</p></center>
+                <div id="footer-2" class="w-[65%] ml-[5%] inline-block float-left">
+                    <center><p id="text-promo" class="text-[30px] font-bold mt-[45px] text-[#ffffff] uppercase">Aproveite o lote promocional hoje!</p></center>
                     <a href="https://sun.eduzz.com/1827710">
                         <button id="button_promo" type="button" class="w-full mt-4 md:mt-[15px] text-base md:text-[15px] uppercase h-[60px] md:h-[60px] rounded-[10px] text-[18px] shadow-lg uppercase font-bold bg-[#da8623] text-white shadow-lg">Inscreva-se agora, últimas vagas!</button>
                     </a>
@@ -526,7 +613,7 @@
 
     <footer class="mt-[50px] bg-[#4a0a74] py-[20px] text-center text-white">
         <p class="text-[11px] text-[#ffffff]">Todos os direitos reservados a Mulheres que Marcam &copy; 2023 </p>
-        <ul class="float-right mt-[-1%] mr-[10px]">
+        <ul id="redes" class="float-right mt-[-1%] mr-[10px]">
             <!-- <li class="inline-block mr-[10px]"><i class="fi fi-brands-facebook" style="color: #ffffff; font-size: 20px;"></i></li> -->
             <!-- <li class="inline-block mr-[10px]"><i class="fi fi-brands-twitter" style="color: #ffffff; font-size: 20px;"></i></li> -->
             <li class="inline-block mr-[10px]"><i class="fi fi-brands-instagram" style="color: #ffffff; font-size: 20px;"></i></li>
