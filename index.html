@@ -44,8 +44,7 @@
     #img-tema{
         background-image: url('img/WhatsApp Image 2023-05-17 at 13.35.58 (1).jpeg');
         width: 100%;
-        height: 550px;
-        height: 1280px;
+        height: 1000px;
         background-repeat: no-repeat;
         background-size: 100%;
     }
@@ -219,12 +218,61 @@
     #carousel{
         margin-left: -30px;
     }
-    .carousel-control-prev-icon{
-        margin-left: -80px; margin-top: 350px;
+    #carousel-control-prev{
+        margin-left: -120px; margin-top: 70px;
     }
-    .carousel-control-next-icon{
-        margin-right: -80px; margin-top: 350px;
+    #carousel-control-next{
+        margin-right: -120px; margin-top: 70px;
     }
+    #img-comentario{
+        box-shadow: 2px 2px 20px 2px purple;
+    }
+    #danile{
+        background-image: url('img/danielle mafra.jpg');
+        background-size: cover;
+        background-position: top;
+    }
+    #kenia{
+        background-image: url('img/kenia.jpg');
+        background-size: cover;
+        background-position: center;
+
+    }
+    #katarina{
+        background-image: url('img/katarina.jpg');
+        background-size: cover;
+        background-position: top;
+    }
+    #laise{
+        background-image: url('img/laise.jpg');
+        background-size: cover;
+        background-position: center top;
+
+    }
+    #priscila{
+        background-image: url('img/Artboard-3avatar_fundadoras.png');
+        background-size: cover;
+        background-position: center top;
+    }
+    #thais {
+        background-image: url('img/thais barbosa.jpg');
+        background-size: cover;
+        background-position: top;
+
+    }
+    #aline{
+        background-image: url('img/aline.jpg');
+        background-size: cover;
+        background-position: center;
+
+    }
+    #isis{
+        background-image: url('img/isis.jpg');
+        background-size: cover;
+        background-position: center;
+
+    }
+
     @media all and (min-width:2px) and (max-width:742px) {
         #img-tema{
             background-image: url('img/WhatsApp Image 2023-05-17 at 13.35.58 (1).jpeg');
@@ -233,9 +281,16 @@
             background-repeat: no-repeat;
             background-size: 100%;
         }
+        #img-tema1{
+            margin-right: 100%;
+            width: 80%;
+           
+           
+            
+        }
         #video_kenia{
-            width: 100%;
-            margin-top: -35px;
+            width: 60%;
+            margin-top: -20px;
             margin-bottom: 50px;
         }
         #top-titulo{
@@ -278,7 +333,7 @@
             float: left;
             margin-right: 2%;
         }
-        #logo-maior{
+        #logo-maior-{
             display: none;
         }
         #button-cp{
@@ -287,11 +342,15 @@
             margin-left: 2%;
         }
         #btn{
-            margin-top: 15px;
-            line-height: 14px;
+            margin-top: -20%;
+            line-height: 12px;
+            width: 80%;
+            float: left;
+            margin-right: -60%;
         }
         #mqm{
             margin-top: 20px;
+            display: none;
         }
         #footer-1{
             width: 100%;
@@ -313,7 +372,6 @@
         #contador{
             font-size: 50px;
         }
-        
     }
     </style>
 
@@ -325,7 +383,7 @@
                         <img id="mqm" class="float-left mt-[30px] w-[150px]" src="img/mqm.png" alt="">
                     </div>
                     <div id="logo-maior" class="w-[53.3%] float-left inline-block">
-                        <center><img id="img-tema-" src="img/maior.png" alt=""></center>
+                        <center><img id="img-tema1" src="img/maior.png" alt=""></center>
                     </div>
                     <div id="button-cp" class="w-[23.3%] float-left inline-block">
                         <a href="#comprar"><button id="btn" type="button" class="btn btn-primary btn-lg shadow-lg" style="float: right; font-weight: bold;">Inscreva-se agora!</button></a>
@@ -358,9 +416,9 @@
 
         <!--carrossel-->
 
-        <section class="w-[80%] ml-[10%] mx-[10%] inline-block">
-            <div id="logo-maior" class="w-[100%] float-left inline-block mt-[50px]">
-                <center><img id="img-tema-" src="img/WhatsApp_Image_2023-05-17_at_13.35.58__253_-removebg.png" alt=""></center>
+        <section class="w-[70%] ml-[14%] mx-[10%] inline-block">
+            <div id="logo-maior" class="w-[800] float-left inline-block mt-[10%]">
+                <center><img  id="img-tema-" src="img/WhatsApp_Image_2023-05-17_at_13.35.58__253_-removebg.png" alt=""></center>
             </div>
 
             <div style="margin-left: -30px; margin-bottom: 60px;" id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" style="height: 600px;">
@@ -401,73 +459,265 @@
 
         </section>
 
-        <!-- programação -->
-        <section id="sec" class="flex text-left w-[80%] mx-[10%] mt-[10%]">
-            <div id="caixa-text" class="inline-block bg-[#ffffff] rounded-[20px] p-[80px] ml-[-22px]">
-            <div class="flex items-center">
-            </div>
-            <div class="">
-                <div id="programacao">
-                <p class="text-center text-4xl p-[20px]"><b>Confira a Programação na Íntegra!</b></p>
+        <!--comentarios-->
+        <section class="w-[70%] ml-[14%] mx-[10%] inline-block">
+            <div class="container mx-auto py-8">
+                <div class="flex flex-wrap -mx-4">
+                  <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8">
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                      <div class="flex items-center justify-center mb-4">
+                        <img id="img-comentario"  class="h-[150px] w-[150px]  rounded-full object-cover" src="img/fotor_2023-6-13_12_7_25-fotor-2023061312735.png" alt="Imagem do Comentário">
+                      </div>
+                      <p class="text-gray-800 text-center">"Participar do evento 'Mulheres que Marcam' foi uma experiência transformadora. <br> Conheci mulheres inspiradoras, ouvi histórias de superação e aprendi lições valiosas. <br> Saí de lá com a certeza de que posso conquistar qualquer objetivo.
+                        <br> Juntas, nós somos imparáveis!"</p>
+                    </div>
+                  </div>
+                  <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8">
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                      <div class="flex items-center justify-center mb-4">
+                        <img id="img-comentario"  class="h-[150px] w-[150px] rounded-full object-cover" src="img/fotor_2023-6-13_12_5_20-fotor-2023061312625.png" alt="Imagem do Comentário">
+                      </div>
+                      <p class="text-gray-800 text-center">"O evento 'Mulheres que Marcam' foi um verdadeiro oásis de empoderamento feminino. Encontrei um ambiente acolhedor, repleto de mulheres incríveis, dispostas a compartilhar conhecimentos e apoiar umas às outras. Aprendi tanto em apenas um dia, e sinto-me mais confiante para seguir meus sonhos."</p>
+                    </div>
+                  </div>
+                  <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8">
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                      <div class="flex items-center justify-center mb-4">
+                        <img id="img-comentario"  class="h-[150px] w-[150px] rounded-full object-cover"src="img/fotor_2023-6-13_12_39_29-fotor-20230613123944.png" alt="Imagem do Comentário">
+                      </div>
+                      <p class="text-gray-800 text-center">"Mulheres que Marcam é mais do que um evento, é uma celebração da força feminina. Fiquei maravilhada ao ver mulheres de diferentes áreas e idades reunidas, unidas por um propósito comum. A troca de histórias e a energia positiva me encheram de motivação e inspiração para conquistar o mundo."</p>
+                    </div>
+                  </div>
                 </div>
-                <ul>
-                <li class="text-black-600 mt-4 text-xl">⭐️ <b>Kênia Raissa</b> <br>
-                    Estrategista em Marcas Pessoais Femininas, Treinadora de Treinadores Globais e Empresária. <br>
-                    PONTO DE CONVERGÊNCIA: O PODEROSO ENCONTRO DA SUA HISTÓRIA DE VIDA COM SEU PROPÓSITO.
-                </li>
-                <br>
-                <li class="text-black-600 mt-4 text-xl">⭐️ <b>Danielle Mafra</b> <br>
-                    Executiva em ESG e atual Secretária Executiva do Município de Natal. <br>
-                    FUTURO, TENDÊNCIAS E O NOSSO PAPEL NA NOVA ECONOMIA.
-                </li>
-                <br>
-                <li class="text-black-600 mt-4 text-xl">⭐️ <b>Katarina Alcântara</b> <br>
-                    Personal Business, Mentora de Carreiras e Treinadora Comportamental. <br>
-                    COMPETÊNCIAS INTERPESSOAIS QUE COLOCAM A MULHER CONTEMPORÂNEA EM POSIÇÃO DE DESTAQUE.
-                </li>
-                <br>
-                <li class="text-black-600 mt-4 text-xl">⭐️ <b>Laíse Trindade</b><br>
-                    Nutricionista, Especialista em Neurociência aplicada ao Desenvolvimento Humano. <br>
-                    PRODUTIVIDADE ESTRATÉGICA E ALTA PERFORMANCE NA VIDA E NOS NEGÓCIOS
-                </li>
-                <br>
-                <li class="text-black-600 mt-4 text-xl">⭐️ <b>Priscila Barros</b> <br>
-                    Estrategista Digital e Mentora em Posicionamento Estratégico Digital.
-                </li>
-                <br>
-                <li class="text-black-600 mt-4 text-xl">⭐️ <b>Thaís Barbosa</b> <br>
-                    Mentora e Treinadora de Experts, Especialista em Método, Narrativas e Criação de Produtos e Serviços Educacionais. <br>
-                    COMO SUPERAR O MEDO DA EXPOSIÇÃO DIGITAL E TER A CORAGEM DE CRIAR UM POSICIONAMENTO AUTÊNTICO
-                </li>
-                <br>
-                <li class="text-black-600 mt-4 text-xl">⭐️ <b>Aline Chacon</b> <br>
-                    Educadora e Mentora de Mulheres que buscam viver sua autenticidade. <br>
-                    MULHER REAL E CONTEMPORÂNEA: LIBERTE-SE DE QUEM VOCÊ NÃO É PARA VIVER SUA VERDADEIRA IDENTIDADE.
-                </li>
-                <br>
-                <li class="text-black-600 mt-4 text-xl">⭐️ <b>Ísis Moreira</b> <br>
-                    Treinadora de Negócios e Espiritualidade, com mais de 20 mil alunos treinados em Marketing Digital e Desenvolvimento Pessoal. <br>
-                    DESENVOLVA INTENCIONALMENTE UMA EXISTÊNCIA DE ABUNDÂNCIA.
-                </li>
-                <br>
-                <p class="text-black-600 mt-4 text-xl">Venha fazer parte desse momento que irá marcar a história de muitas mulheres.</p>
-                <p class="text-black-600 mt-4 text-xl"><b>Vamos todas juntas!</b></p>
-                </ul>
-            </div>
-            </div>
+              </div>
         </section>
 
-        <div id="logo-maior" class="w-[53.3%] float-left inline-block ml-[23%] my-[4%]">
-            <center><img id="img-tema-" src="img/maior.png" alt="" ></center>
+
+                <!---->
+
+                    <!--programação-->
+    <!--<section id="sec" class="flex text-left w-[80%] mx-[10%] mt-[10%]">
+        <div id="caixa-text" class="inline-block bg-[#ffffff] rounded-[20px] p-[80px] ml-[-22px]">
+        <div class="flex items-center">
         </div>
-        
-        <!--baners-->
-        <section id="comprar" class="flex text-left w-full mt-[60px]">
-            <div class="w-[80%] rounded-[25px] ml-[9%] ">
-                <div class="w-[100%] inline-block">
-                    <div id="footer-1" class="w-[28%] mr-[2%] mt-[50px] inline-block float-left">
-                        <script src="https://code.jquery.com/jquery-3.6.0.min.js" charset="utf-8"></script>
-                        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js" charset="utf-8"></script>
+        <div class="">
+            <div id="programacao">
+            <p class="text-center text-4xl p-[20px]"><b>Confira a Programação na Íntegra!</b></p>
+            </div>
+            <ul>
+            <li class="text-black-600 mt-4 text-xl">⭐️ <b>Kênia Raissa</b> <br>
+                Estrategista em Marcas Pessoais Femininas, Treinadora de Treinadores Globais e Empresária. <br><br>
+                <b>
+                    <p>TEMA:</p>
+                </b> <br>
+                <b>*</b> PONTO DE CONVERGÊNCIA: O PODEROSO ENCONTRO DA SUA HISTÓRIA DE VIDA COM SEU PROPÓSITO.
+            </li>
+            <br>
+            <li class="text-black-600 mt-4 text-xl">⭐️ <b>Danielle Mafra</b> <br>
+                Executiva em ESG e atual Secretária Executiva do Município de Natal. <br><br>
+                <b><p>TEMA:</p></b> <br>
+                <b>*</b> FUTURO, TENDÊNCIAS E O NOSSO PAPEL NA NOVA ECONOMIA.
+            </li>
+            <br>
+            <li class="text-black-600 mt-4 text-xl">⭐️ <b>Katarina Alcântara</b> <br>
+                Personal Business, Mentora de Carreiras e Treinadora Comportamental. <br><br>
+                <b><p>TEMA:</p></b> <br>
+               <b>*</b> COMPETÊNCIAS INTERPESSOAIS QUE COLOCAM A MULHER CONTEMPORÂNEA EM POSIÇÃO DE DESTAQUE.
+            </li>
+            <br>
+            <li class="text-black-600 mt-4 text-xl">⭐️ <b>Laíse Trindade</b><br>
+            
+                Nutricionista, Especialista em Neurociência aplicada ao Desenvolvimento Humano. <br><br>
+                <b><p>TEMA:</p></b> <br>
+                <b>*</b> PRODUTIVIDADE ESTRATÉGICA E ALTA PERFORMANCE NA VIDA E NOS NEGÓCIOS.
+            </li>
+            <br>
+            <li class="text-black-600 mt-4 text-xl">⭐️ <b>Priscila Barros</b> <br>
+               Estrategista Digital e Mentora em Posicionamento Estratégico Digital.
+            </li>
+            <br>
+            <li class="text-black-600 mt-4 text-xl">⭐️ <b>Thaís Barbosa</b> <br>
+                Mentora e Treinadora de Experts, Especialista em Método, Narrativas e Criação de Produtos e Serviços Educacionais. <br><br>
+                <b><p>TEMA:</p></b> <br>
+                <b>*</b> COMO SUPERAR O MEDO DA EXPOSIÇÃO DIGITAL E TER A CORAGEM DE CRIAR UM POSICIONAMENTO AUTÊNTICO.
+            </li>
+            <br>
+            <li class="text-black-600 mt-4 text-xl">⭐️ <b>Aline Chacon</b> <br>
+                Educadora e Mentora de Mulheres que buscam viver sua autenticidade. <br><br>
+                <b><p>TEMA:</p></b> <br>
+                <b>*</b> MULHER REAL E CONTEMPORÂNEA: LIBERTE-SE DE QUEM VOCÊ NÃO É PARA VIVER SUA VERDADEIRA IDENTIDADE.
+            </li>
+            <br>
+            <li class="text-black-600 mt-4 text-xl">⭐️ <b>Ísis Moreira</b> <br>
+                Treinadora de Negócios e Espiritualidade, com mais de 20 mil alunos treinados em Marketing Digital e Desenvolvimento Pessoal. <br><br>
+                <b><p>TEMA:</p></b> <br>
+                <b>*</b> DESENVOLVA INTENCIONALMENTE UMA EXISTÊNCIA DE ABUNDÂNCIA.
+            </li>
+            <br>
+            <p class="text-black-600 mt-4 text-xl">Venha fazer parte desse momento que irá marcar a história de muitas mulheres.</p>
+            <p class="text-black-600 mt-4 text-xl"><b>Vamos todas juntas!</b></p>
+            </ul>
+        </div>
+        </div>
+    </section>-->
+    <section id="sec" class="flex text-left w-[80%] mx-[10%] mt-[10%]">
+        <div id="caixa-text" class="inline-block bg-[#ffffff] rounded-[20px] p-[80px] ml-[-22px]">
+        <div class="flex items-center">
+        </div>
+        <div class="">
+            <div id="programacao">
+            <p class="text-center text-4xl p-[20px]"><b>Confira a Programação na Íntegra!</b></p>
+            </div>
+            <section class="w-[100%] ml-[1%] mx-[9%] inline-block">
+                <div class="container mx-auto py-8">
+                  <div class="flex flex-col sm:flex-row -mx-4">
+                    <div class="w-full sm:w-1/3 px-2 mb-8">
+                      <div class="bg-white rounded-lg shadow-lg p-6">
+                        <div class="flex items-center justify-center mb-4">
+                          <img id="kenia" style="background-size: cover;" class="h-[160px] w-[100%] rounded-[4%]  object-cover" >
+                        </div>
+                            <p>
+                                <p class="text-black-600 text-left mt-4 text-xl">⭐️ <b>Kênia Raissa</b> <br>
+                                Estrategista em Marcas Pessoais Femininas, Treinadora de Treinadores Globais e Empresária. <br><br>
+                                <b>
+                                    <p class="text-left">TEMA:</p>
+                                </b> <br>
+                                <p class="text-left"><b >*</b> PONTO DE CONVERGÊNCIA: O PODEROSO ENCONTRO DA SUA HISTÓRIA DE VIDA COM SEU PROPÓSITO.</p>
+                            </p>
+                        
+ 
+                      </div>
+                    </div>
+                    <div class="w-full sm:w-1/3 px-2 mb-8">
+                      <div class="bg-white rounded-lg shadow-lg p-6">
+                        <div class="flex items-center justify-center mb-4">
+                          <img id="danile" class="h-[160px] w-[100%] rounded-[4%]  object-cover" >
+                        </div>
+                        <p class="text-black-600 mt-4 text-left text-xl">⭐️ <b>Danielle Mafra</b> <br>
+                            Executiva em ESG e atual Secretária Executiva do Município de Natal. <br><br><br>
+                            <p class="text-left" > <b>TEMA: </b></p> <br>
+                            <p class="text-left" ><b>*</b> FUTURO, TENDÊNCIAS E O NOSSO PAPEL NA NOVA ECONOMIA.</p>
+                        </p>
+                        <br>
+                      </div>
+                    </div>
+                    <div class="w-full sm:w-1/3 px-2 mb-8">
+                      <div class="bg-white rounded-lg shadow-lg p-6">
+                        <div class="flex items-center justify-center mb-4">
+                            <img id="katarina" class="h-[160px] w-[100%] rounded-[4%]  object-cover" >
+                        </div>
+                        <p class="text-black-600 text-left mt-4 text-xl">⭐️ <b>Katarina Alcântara</b> <br>
+                            Personal Business, Mentora de Carreiras e Treinadora Comportamental. <br><br>
+                            <b>
+                            <p class="text-left">TEMA:</p></b> <br>
+                           <p class="text-left"><b>*</b> COMPETÊNCIAS INTERPESSOAIS QUE COLOCAM A MULHER CONTEMPORÂNEA EM POSIÇÃO DE DESTAQUE.</p>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="w-[100%] ml-[1%] mx-[9%] inline-block">
+                <div class="container mx-auto py-8">
+                  <div class="flex flex-col sm:flex-row -mx-4">
+                    <div class="w-full sm:w-1/3 px-2 mb-8">
+                      <div class="bg-white rounded-lg shadow-lg p-6">
+                        <div class="flex items-center justify-center mb-4">
+                          <img id="laise" class="h-[160px] w-[100%] rounded-[4%]  object-cover" >
+                        </div>
+                        <p class="text-black-600 text-left mt-4 text-xl">⭐️ <b>Laíse Trindade</b><br>
+            
+                            Nutricionista, Especialista em Neurociência aplicada ao Desenvolvimento Humano. <br><br>
+                            <b>
+                            <p class="text-left">TEMA:</p></b> <br>
+                            <p class="text-left" ><b>*</b> PRODUTIVIDADE ESTRATÉGICA E ALTA PERFORMANCE NA VIDA E NOS NEGÓCIOS.</p>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="w-full sm:w-1/3 px-2 mb-8">
+                      <div class="bg-white rounded-lg shadow-lg p-6">
+                        <div class="flex items-center justify-center mb-4">
+                          <img id="priscila" class="h-[160px] w-[100%] rounded-[4%]  object-cover" >
+                        </div>
+                        <p class="text-black-600 text-left mt-4 text-xl">⭐️ <b>Priscila Barros</b> <br>
+                            Estrategista Digital e Mentora em Posicionamento Estratégico Digital.
+                         </p>
+                      </div>
+                    </div>
+                    <div class="w-full sm:w-1/3 px-2 mb-8">
+                      <div class="bg-white rounded-lg shadow-lg p-6">
+                        <div class="flex items-center justify-center mb-4">
+                            <img id="thais" class="h-[160px] w-[100%] rounded-[4%]  object-cover">
+                        </div>
+                        <p class="text-black-600 text-left mt-4 text-xl">⭐️ <b>Thaís Barbosa</b> <br>
+                            Mentora e Treinadora de Experts, Especialista em Método, Narrativas e Criação de Produtos e Serviços Educacionais. <br><br>
+                            <b>
+                            <p class="text-left">TEMA:</p></b> <br>
+                            <p class="text-left" ><b>*</b> COMO SUPERAR O MEDO DA EXPOSIÇÃO DIGITAL E TER A CORAGEM DE CRIAR UM POSICIONAMENTO AUTÊNTICO.</p>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="w-[100%] ml-[1%] mx-[9%] inline-block">
+                <div class="container mx-auto py-8">
+                  <div class="flex flex-col sm:flex-row -mx-4">
+                    <div class="w-full sm:w-1/3 px-2 mb-8">
+                      <div class="bg-white rounded-lg shadow-lg p-6">
+                        <div class="flex items-center justify-center mb-4">
+                          <img id="aline" class="h-[160px] w-[100%] rounded-[4%]  object-cover" >
+                        </div>
+                        <p class="text-black-600 text-left mt-4 text-xl">⭐️ <b>Aline Chacon</b> <br>
+                            Educadora e Mentora de Mulheres que buscam viver sua autenticidade. <br><br>
+                            <b>
+                            <p class="text-left">TEMA:</p></b> <br>
+                            <p class="text-left" ><b>*</b> MULHER REAL E CONTEMPORÂNEA: LIBERTE-SE DE QUEM VOCÊ NÃO É PARA VIVER SUA VERDADEIRA IDENTIDADE.</p>
+                        </p>
+                        <br><br> <br>
+                      </div>
+                    </div>
+                    <div class="w-full sm:w-1/3 px-2 mb-8">
+                      <div class="bg-white rounded-lg shadow-lg p-6">
+                        <div class="flex items-center justify-center mb-4">
+                          <img id="isis" class="h-[160px] w-[100%] rounded-[4%]  object-cover" >
+                        </div>
+                        <p class="text-black-600 text-left mt-4 text-xl">⭐️ <b>Ísis Moreira</b>
+                            Treinadora de Negócios e Espiritualidade, com mais de 20 mil alunos treinados em Marketing Digital e Desenvolvimento Pessoal. <br><br>
+                            <b>
+                            <p class="text-left" >TEMA:</p></b> <br>
+                            <p class="text-left" ><b>*</b> DESENVOLVA INTENCIONALMENTE UMA EXISTÊNCIA DE ABUNDÂNCIA.</p>
+                        </p>
+                      </div>
+                    </div>  
+              </section>
+              <b><p class="text-black-600 mt-4 text-xl"> <b></b> Venha fazer parte desse momento que irá marcar a história de muitas mulheres.</b> </p></b>
+              <p class="text-black-600 mt-4 text-xl"><b>Vamos todas juntas!</b></p>
+              
+              
+              
+              
+            
+            
+    </section>
+   
+      
+      
+
+    
+
+    <div id="logo-maior" class="w-[53.3%] float-left inline-block ml-[23%] my-[2.5%]">
+        <center><img id="img-tema-" src="img/maior.png" alt=""></center>
+    </div>
+<!--baners-->
+    <section id="comprar" class="flex text-left w-full mt-[60px]">
+        <div class="w-[80%] rounded-[25px] ml-[9%] ">
+            <div class="w-[100%] inline-block">
+                <div id="footer-1" class="w-[28%] mr-[2%] mt-[50px] inline-block float-left">
+                    <script src="https://code.jquery.com/jquery-3.6.0.min.js" charset="utf-8"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js" charset="utf-8"></script>
 
                         <div class="rounded-[20px]">
                             <center>
@@ -487,18 +737,27 @@
                         </script>
                     </div>
 
-                    <div id="footer-2" class="w-[65%] ml-[5%] inline-block float-left">
-                        <center><p id="text-promo" class="text-[30px] font-bold mt-[45px] text-[#ffffff] uppercase">Aproveite o lote promocional hoje!</p></center>
-                        <a href="https://sun.eduzz.com/1827710">
-                            <button id="button_promo" type="button" class="w-full mt-4 md:mt-[15px] text-base md:text-[15px] uppercase h-[60px] md:h-[60px] rounded-[10px] text-[18px] shadow-lg uppercase font-bold bg-[#da8623] text-white shadow-lg">Inscreva-se agora, últimas vagas!</button>
-                        </a>
-                    </div>
-                    
+                <div id="footer-2" class="w-[65%] ml-[5%] inline-block float-left">
+                    <center><p id="text-promo" class="text-[30px] font-bold mt-[45px] text-[#ffffff] uppercase">Aproveite o lote promocional hoje!</p></center>
+                    <a href="https://sun.eduzz.com/1827710">
+                        <button id="button_promo" type="button" class="w-full mt-4 md:mt-[15px] text-base md:text-[15px] uppercase h-[60px] md:h-[60px] rounded-[10px] text-[18px] shadow-lg uppercase font-bold bg-[#da8623] text-white shadow-lg">Inscreva-se agora, últimas vagas!</button>
+                    </a>
                 </div>
+
+                <!-------------------------------------------------------------------------------------------------------->
+
+                <div id="footer-2" class="w-[65%] ml-[5%] inline-block float-left">
+                    <center><p id="text-promo" class="text-[30px] font-bold mt-[45px] text-[#ffffff] uppercase">Lote Promocional - Inscrição Casada </p></center>
+                    <a href="https://sun.eduzz.com/1951771">
+                        <button id="button_promo" type="button" class="w-full mt-4 md:mt-[15px] text-base md:text-[15px] uppercase h-[60px] md:h-[60px] rounded-[10px] text-[18px] shadow-lg uppercase font-bold bg-[#da8623] text-white shadow-lg">Inscreva-se agora, últimas vagas!</button>
+                    </a>
+                </div>
+                
             </div>
-            
-        </section>
-        <!--botoes de inscrição-->
+        </div>
+        
+    </section>
+    <!--botoes de inscrição-->
 
         <!--<section class="w-[82%] mx-[9%] inline-block">
             <article>
